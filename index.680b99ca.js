@@ -1,0 +1,2 @@
+const e=document.querySelector("#search-box"),o=(document.querySelector(".country-list"),document.querySelector(".country-info"));console.log(o),e.addEventListener("input",(function(e){e.preventDefault(),console.log("onSearchCountryInput");const o=e.currentTarget;console.log(o);const t=o.value.trim();console.log(t),n=t,fetch(`https://restcountries.com/v3.1/name/${n}`).then((e=>e.json()));var n}));
+//# sourceMappingURL=index.680b99ca.js.map
