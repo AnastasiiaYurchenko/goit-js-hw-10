@@ -1,2 +1,0 @@
-!function(){var e=document.querySelector("#search-box"),o=(document.querySelector(".country-list"),document.querySelector(".country-info"));console.log(o),e.addEventListener("input",(function(e){e.preventDefault(),console.log("onSearchCountryInput");var o=e.currentTarget;console.log(o);var n=o.value.trim();console.log(n),t=n,fetch("https://restcountries.com/v3.1/name/".concat(t)).then((function(e){return e.json()}));var t}))}();
-//# sourceMappingURL=index.a500c717.js.map
