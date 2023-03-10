@@ -52,7 +52,7 @@ function renderCountryInfo(countries) {
       <h1 class="country-name-title">${country.name.official}</h1>
       <p class="capital"><b>Capital:</b> ${country.capital}</p>
       <p class="population"><b>Population:</b> ${country.population}</p>
-      <p class="languages"><b>Languages:</b> ${Object.values(country.languages)}</p>`
+      <p class="languages"><b>Languages:</b> ${Object.values(country.languages).join(", ")}</p>`
         })
         .join("");
     
